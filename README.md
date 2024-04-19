@@ -4,7 +4,7 @@ This repository contains R code for analyzing blood pressure data. We’ll creat
 
 # Installation
 
-Make sure you have the ggplot2 package installed. If not, you can install it using the following command: '''install.packages("ggplot2")'''
+Make sure you have the ggplot2 package installed. If not, you can install it using the following command: ```install.packages("ggplot2")```
 
 # Data
 
