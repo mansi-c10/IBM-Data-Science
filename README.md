@@ -19,17 +19,12 @@ We’ll use a sample dataset with the following variables:
 
 # Scatter Plot: Weight vs. Blood Pressure
 
-```ggplot(df, aes(x = weight, y = bp)) +
-  geom_point() +
-  labs(x = "Weight", y = "Blood Pressure") +
-  ggtitle("Weight vs. Blood Pressure")```
+  ```ggplot(df, aes(x = weight, y = bp)) + geom_point() + labs(x = "Weight", y = "Blood Pressure") + ggtitle("Weight vs. Blood Pressure")```
 
 This scatter plot shows the relationship between weight and blood pressure.
 
 # Stacked Bar Chart: Smoking Status vs. Tumor Size
 
-```ggplot(df, aes(fill = tumour, x = smoking)) +
-  geom_bar(position = 'stack', stat = 'count') +
-  labs(x = 'Smoking Status', y = 'Count', title = 'Smoking Status vs. Tumour Size')```
+```ggplot(df, aes(fill = tumour, x = smoking)) + geom_bar(position = 'stack', stat = 'count') + labs(x = 'Smoking Status', y = 'Count', title = 'Smoking Status vs. Tumour Size')```
 
 The stacked bar chart illustrates the distribution of tumor sizes based on smoking status.
